@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   push:
-    runs-on: ${{ matrix.operating-system }}
+    runs-on: ubuntu-latest
     timeout-minutes: 60
     strategy:
       matrix:
