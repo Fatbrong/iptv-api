@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     strategy:
-      matrix:
+      
       
     steps:
       - name: Set branch name
