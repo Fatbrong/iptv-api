@@ -23,7 +23,7 @@ jobs:
     timeout-minutes: 60
     strategy:
       matrix:
-        operating-system: [ 'ubuntu-latest' ]
+      
     steps:
       - name: Set branch name
         id: vars
